@@ -2,7 +2,7 @@ let output = document.querySelector('.output');
 let inputTranslate = document.querySelector('#phrase');
 let inputDefine = document.querySelector('#word');
 
-// To be used later to just use one sendRequest function
+// To be combined to use just one sendRequest function
 const UrlOptions = {
   'translate': 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=es&tl=en&dt=t&q=',
 
